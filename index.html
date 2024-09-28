@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password And Email Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>If validations aren’t correct!</h1>
+    <div class="Outer_box">
+        <div class="main_conatiner">
+            <form>
+                <div class="email_verification"></div>
+                <label for="email_input">Email
+                    <br>
+                    <input type="email" id="email_input" placeholder="Example@email.com">
+                    <span class="error_msg">Make sure email is more than 3 characters and has @ and a .</span>
+                    <span class="email_success"></span>
+                </label>
+        
+        
+                <div class="password_verification">
+                    <label for="password_input">Password
+                        <br>
+                        <input type="password" id="password_input" placeholder="Your Password">
+                        <span class="error_msg">Make sure password is more than 8 characters.</span>
+                        <span class="password_success"></span>
+                </div>
+                <span class="success"></span>
+                <div class="btn">
+                    <button class="submit" id="Submit_btn">Submit</button>
+                    <span class="btn_submit"></span>
+                </div>
+            </form>
+           
+        </div>
+    </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
